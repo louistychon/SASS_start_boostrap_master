@@ -11126,29 +11126,36 @@ textarea.form-control-lg {
   background-color: #0000ff !important;
 }
 
-body .d-flex {
-  flex-direction: column !important;
-}
-body .row {
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-body .col {
-  text-align: center !important;
-}
-body .col img {
-  padding: 10px;
-}
-
-header ul {
-  width: 50%;
-}
-header ul li {
-  text-align: center;
-  background-color: #dc3545;
-  margin-top: 5px;
-  border-radius: 20px;
-  padding: 10px;
+@media (max-width: 768px) {
+  body .flexible {
+    flex-direction: column !important;
+  }
+  body .row {
+    flex-direction: column !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  body .col {
+    text-align: center !important;
+  }
+  body .col img {
+    padding: 10px;
+  }
+  body header ul {
+    width: 50%;
+  }
+  body header ul li {
+    text-align: center;
+    background-color: #dc3545;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 0px !important;
+    align-self: center !important;
+  }
+  body header ul .ms-4 {
+    margin-left: 0px !important;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

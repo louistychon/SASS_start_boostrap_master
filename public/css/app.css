@@ -11118,8 +11118,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#nav {
+.container-bleu {
   background-color: #00004c;
+}
+
+#blue {
+  background-color: #0000ff !important;
+}
+
+body .d-flex {
+  flex-direction: column !important;
+}
+body .row {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+body .col {
+  text-align: center !important;
+}
+body .col img {
+  padding: 10px;
+}
+
+header ul {
+  width: 50%;
+}
+header ul li {
+  text-align: center;
+  background-color: #dc3545;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=app.css.map */

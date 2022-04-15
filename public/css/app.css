@@ -11122,10 +11122,6 @@ textarea.form-control-lg {
   background-color: #00004c;
 }
 
-#blue {
-  background-color: #0000ff !important;
-}
-
 @media (max-width: 768px) {
   body .flexible {
     flex-direction: column !important;
